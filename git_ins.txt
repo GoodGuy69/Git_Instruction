@@ -1,0 +1,36 @@
+
+
+Architecture of git show: 
+
+             (clone)                    
+   -   -   -   -   -   -   -    -      remote repo
+   |          (pull)                         ^
+   |     -   -   -   -   -   -   -   -   -   |
+   |     |                                   |   (push)
+   v     V                                   |
+working copy    ->    staging area    ->    local repo 
+
+
+
+######## basic
+
+git add .                    : add from "working copy" to "staging area"
+git commit -m "description"  : commit from "staging area" to "local repo"
+git push                     : push from "local repo" to "remote repo"
+
+git pull                     : pull from "remote repo" to "working copy"
+
+git rm filename              : remove from "working copy" and "staging area"
+git rm --cached filename     : remove from "staging area" only
+
+
+
+######## Advanced
+
+git branch                   :
+git checkout                 :
+git merge                    :
+
+######## Hard 
+git rebase                   :
+git cherry-pick              :
