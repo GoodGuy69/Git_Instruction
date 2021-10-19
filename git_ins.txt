@@ -36,7 +36,9 @@ git checkout -b branch_name  : create branch_name and switch to "branch_name"
 git merge branch_name        : merge branch_name into current branch(master) 
 
 ######## Hard 
-git rebase                   :
+git rebase branch_name       : take code of "branch_name" to current branch    ( if conflict -> "resolve and git add . "-> "git rebase --continue" 
+                                                                                 if can instead skip commit -> "git rebase --skip" (not recommend)
+                                                                                 if abort and get back the state before rebase ->  "git rebase --abort" )
 git cherry-pick              :
 
 
