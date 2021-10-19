@@ -1,3 +1,0 @@
-some thing like that:
-
-x = apple
