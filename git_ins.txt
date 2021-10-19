@@ -39,6 +39,11 @@ git merge branch_name        : merge branch_name into current branch(master)
 git rebase branch_name       : take code of "branch_name" to current branch    ( if conflict -> "resolve and git add . "-> "git rebase --continue" 
                                                                                  if can instead skip commit -> "git rebase --skip" (not recommend)
                                                                                  if abort and get back the state before rebase ->  "git rebase --abort" )
+Situation rebase many_commited branch, we must merge many commit to one, then rebase easy with 1 check conflict
+-> git rebase -i HEAD~2      : show 2 commit from HEAD to modify -> after go to new page: pick commitID1 description1
+                                                                                          pick commitID2 description2  -> modify "pick" into "s" (like "s commitID2 description2" )
+
+
 git cherry-pick              :
 
 
