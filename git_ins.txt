@@ -16,7 +16,7 @@ working copy    ->    staging area    ->    local repo
 
 
 
-
+git restore filename         : restore modified smt in filename before git add 
 
 git add .                    : add from "working copy" to "staging area"
 git commit -m "description"  : commit from "staging area" to "local repo"
