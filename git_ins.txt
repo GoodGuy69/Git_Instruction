@@ -23,7 +23,8 @@ git pull                     : pull from "remote repo" to "working copy"
 git rm filename              : remove from "working copy" and "staging area"
 git rm --cached filename     : remove from "staging area" only
 
-
+git status...
+git log...
 
 ######## Advanced
 
@@ -32,8 +33,14 @@ git branch branch_name       : create new branch
 
 git checkout branch_name     : switch to "branch_name"
 git checkout -b branch_name  : create branch_name and switch to "branch_name"
-git merge                    :
+git merge branch_name        : merge branch_name into current branch(master) 
 
 ######## Hard 
 git rebase                   :
 git cherry-pick              :
+
+
+######## Additional
+git config --global -e       : show "gitconfig" file
+git config --global name1 name2: put value of name1 = name2
+
