@@ -30,6 +30,7 @@ git rm -f filename           : remove force from both "working copy" and "stagin
 
 git status (-s)              : check for where code is 
 git log  (--oneline)         : check all committed
+
 ######## Advanced
 
 git branch                   : show list of branches and which branch we in
