@@ -41,6 +41,9 @@ git cherry-pick              :
 
 
 ######## Additional
-git config --global -e       : show "gitconfig" file
-git config --global name1 name2: put value of name1 = name2
+git config --global -e                   : show "gitconfig" file
+git config --global name1 name2          : put value of name1 = name2
+
+echo 'alias ga="git add ." ' >> ~/.bash_profile   : setup simple button
+
 
