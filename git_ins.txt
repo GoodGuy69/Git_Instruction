@@ -27,8 +27,11 @@ git rm --cached filename     : remove from "staging area" only
 
 ######## Advanced
 
-git branch                   :
-git checkout                 :
+git branch                   : show list of branches and which branch we in
+git branch branch_name       : create new branch
+
+git checkout branch_name     : switch to "branch_name"
+git checkout -b branch_name  : create branch_name and switch to "branch_name"
 git merge                    :
 
 ######## Hard 
