@@ -22,6 +22,7 @@ git pull                     : pull from "remote repo" to "working copy"
 
 git rm filename              : remove from "working copy" and "staging area"
 git rm --cached filename     : remove from "staging area" only
+git rm -f filename           : remove force from both "working copy" and "staging area"
 
 git status...
 git log...
