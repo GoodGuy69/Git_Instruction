@@ -46,4 +46,5 @@ git config --global name1 name2          : put value of name1 = name2
 
 echo 'alias ga="git add ." ' >> ~/.bash_profile   : setup simple button   (not running yet)
 
-
+git push origin --delete <branch-name>                    : delete branch in remote repo
+git branch -D <branch-name>                               : delete branch in local repo
