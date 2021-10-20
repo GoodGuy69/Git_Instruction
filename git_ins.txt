@@ -29,7 +29,7 @@ git rm --cached filename     : remove from "staging area" only
 git rm -f filename           : remove force from both "working copy" and "staging area"
 
 git status (-s)              : check for where code is 
-git log  (--oneline)         : check all committed
+git log  (--oneline)(--graph): check all committed
 
 ######## Advanced
 
