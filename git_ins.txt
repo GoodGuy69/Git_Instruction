@@ -14,7 +14,7 @@ working copy    ->    staging area    ->    local repo
 
 ######## basic
 
-
+git diff                     : compare change between all file in last commit and current
 
 git restore filename         : restore modified smt in filename before git add 
 
