@@ -16,7 +16,9 @@ working copy    ->    staging area    ->    local repo
 
 git diff                     : compare change between all file in last commit and current
 
-git restore filename         : restore modified smt in filename before git add 
+git restore (--staged) filename         : restore modified smt in filename before git add
+
+git checkout commit_ID -- filename : restore "filename" in commit_ID
 
 git add .                    : add from "working copy" to "staging area"
 git commit -m "description"  : commit from "staging area" to "local repo"
