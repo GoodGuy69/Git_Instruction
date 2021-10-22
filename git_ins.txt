@@ -14,6 +14,12 @@ working copy    ->    staging area    ->    local repo
 
 ######## basic
 
+git diff                     : compare change between all file in last commit and current
+
+git restore (--staged) filename         : restore modified smt in filename before git add
+
+git checkout commit_ID -- filename : restore "filename" in commit_ID
+
 git add .                    : add from "working copy" to "staging area"
 git commit -m "description"  : commit from "staging area" to "local repo"
 git push                     : push from "local repo" to "remote repo"
@@ -24,8 +30,8 @@ git rm filename              : remove from "working copy" and "staging area"
 git rm --cached filename     : remove from "staging area" only
 git rm -f filename           : remove force from both "working copy" and "staging area"
 
-git status...
-git log...
+git status (-s)              : check for where code is 
+git log  (--oneline)(--graph): check all committed
 
 ######## Advanced
 
