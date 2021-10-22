@@ -23,8 +23,10 @@ git checkout commit_ID -- filename : restore "filename" in commit_ID
 git add .                    : add from "working copy" to "staging area"
 git commit -m "description"  : commit from "staging area" to "local repo"
 git push                     : push from "local repo" to "remote repo"
-
+(need update)
 git pull                     : pull from "remote repo" to "working copy"
+(need update)
+git fetch                    : (update remote from remote repo to local)  
 
 git rm filename              : remove from "working copy" and "staging area"
 git rm --cached filename     : remove from "staging area" only
@@ -58,7 +60,8 @@ git cherry-pick              :
 git config --global -e                   : show "gitconfig" file
 git config --global name1 name2          : put value of name1 = name2
 
-echo 'alias ga="git add ." ' >> ~/.bash_profile   : setup simple button   (not running yet)
+     echo 'alias ga="git add ." ' >> ~/.bash_profile  
+or   git config --global alias.ga 'git add .'   : setup simple button   (not running yet)
 
 git push origin --delete <branch-name>                    : delete branch in remote repo
 git branch -D <branch-name>                               : delete branch in local repo
