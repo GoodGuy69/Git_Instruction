@@ -40,7 +40,7 @@ git branch branch_name       : create new branch
 
 git checkout branch_name     : switch to "branch_name"
 git checkout -b branch_name  : create branch_name and switch to "branch_name"
-git merge branch_name        : merge branch_name into current branch(master) 
+git merge branch_name        : merge branch_name into current branch    (merge follow order of time commit)
 
 ######## Hard 
 git rebase branch_name       : take "branch_name" to become base of current branch and append partial commit of current branch  ( if conflict -> "resolve and git add . "-> "git rebase --continue" 
